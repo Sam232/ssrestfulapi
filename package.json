@@ -1,0 +1,25 @@
+{
+  "name": "ssrestfulapi",
+  "version": "1.0.0",
+  "description": "This is a secure restfulapi for a supportsystem that will be used for managing user feedback",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }, 
+  "author": "Samuel Fiatse",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "email-validator": "^2.0.4",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mailgun-js": "^0.22.0",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.1",
+    "nodemon": "^1.18.11"
+  },
+  "devDependencies": {}
+}
